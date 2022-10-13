@@ -4,11 +4,11 @@
 //- Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all'interno ciclo while
 
 const spesa = ["uova", "latte", "miele", "mela","insalata","pasta","riso","sale"];
-console.log(spesa)
+console.log(spesa);
 
-let i = 0
+let i = 0;
 while (i < spesa.length){
-    console.log(spesa[i])
+    console.log(spesa[i]);
     document.writeln(spesa[i]);
     i++;
 }
